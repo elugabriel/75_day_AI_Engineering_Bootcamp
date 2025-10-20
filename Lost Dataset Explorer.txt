@@ -1,0 +1,7 @@
+find project/ -type f -name '*.csv' | wc -l
+find project/ -type f -name '*.csv' -print0 | xargs -0 wc -l
+find project/ -type f -name '*.csv' -print0 | xargs -0 -I{} awk 'END{print FILENAME, NR-1}' {}
+find project/ -type f -name '*.csv' -print0 | xargs -0 awk 'FNR==1{next} {total++} END{print total}'  
+
+Final Answer is 11213
+
