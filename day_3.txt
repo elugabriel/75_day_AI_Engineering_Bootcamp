@@ -1,0 +1,7 @@
+(Alice commits×10)+(Bob lines)+(Charlie commits×5)+(Average lines rounded down)
+
+= (5 × 10) + (191) + (4 × 5) + (57)
+= 50 + 191 + 20 + 57
+= (50 + 191 = 241)
+→ 241 + 20 = 261
+→ 261 + 57 = 318
